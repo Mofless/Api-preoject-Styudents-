@@ -8,18 +8,16 @@ using System.Threading.Tasks;
 
 namespace AppCore.Models
 {
-    public class UserStudent : IIdentity<Guid>
+    public class UserLecture : IIdentity<Guid>
     {
         //[Key]
         public Guid Id { get; set; }
 
         public string Name { get; set; }
 
-        public string Surname { get; set;}
+        public string Surname { get; set; }
 
-        public DateTime DateofBirth { get; set; }
-
-        public string? Email { get; set; }  
+        public string? Email { get; set; }
 
         public string? PictureProfileURL { get; set; }
     }
