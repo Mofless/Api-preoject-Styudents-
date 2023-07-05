@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Commons\Exception\" />
+    <Folder Include="Interfaces\Services\" />
+    <Folder Include="Models\Enums\" />
+  </ItemGroup>
+
 </Project>
