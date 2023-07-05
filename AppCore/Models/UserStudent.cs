@@ -22,5 +22,7 @@ namespace AppCore.Models
         public string? Email { get; set; }  
 
         public string? PictureProfileURL { get; set; }
-    }
+
+        public int? NumberPhone { get; set; }
+     }
 }
