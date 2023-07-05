@@ -24,5 +24,6 @@ namespace AppCore.Models
         public string? PictureProfileURL { get; set; }
 
         public int? NumberPhone { get; set; }
+
      }
 }
